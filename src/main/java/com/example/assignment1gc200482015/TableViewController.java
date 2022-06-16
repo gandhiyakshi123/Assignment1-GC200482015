@@ -83,6 +83,8 @@ public class TableViewController implements Initializable
 
         // load the myntraClothings into the tableView
         tableView.getItems().addAll(DBUtility.getMytraClothingFromDB());
+
+        priceColumn.getStyleClass().add("align-right");
     }
 
 
