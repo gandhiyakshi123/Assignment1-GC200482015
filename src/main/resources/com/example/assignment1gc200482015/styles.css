@@ -1,0 +1,43 @@
+
+.root{
+    -fx-background-color: linear-gradient(rgb(123, 209, 235), rgb(200, 123, 132));
+    -fx-font-size: 20pt;
+}
+.chart-legend{
+    -fx-background-color: transparent;
+}
+.table-view{
+    -fx-font-size: 12pt;
+    -fx-background-color: transparent;
+}
+#label{
+    -fx-font-size: 20pt;
+}
+#button{
+    -fx-font-size: 15pt;
+    -fx-cursor: hand;
+}
+#button:hover{
+    -fx-background-color: linear-gradient(rgb(142, 209, 235), rgb(117, 228, 132));
+}
+#barChart{
+    -fx-font-size: 15pt;
+}
+#brandColumn{
+    -fx-cursor: hand;
+}
+#modelColumn{
+    -fx-cursor: hand;
+}
+#processorNameColumn{
+    -fx-cursor: hand;
+}
+#ramColumn{
+    -fx-alignment: center;
+    -fx-cursor: hand;
+}
+#priceColumn {
+    -fx-alignment: center-right;
+    -fx-cursor: hand;
+}
+
